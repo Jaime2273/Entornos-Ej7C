@@ -1,0 +1,11 @@
+public class Rectangle extends Figura {
+    @Override
+    public void calculateArea() {
+        System.out.print("Ingrese la base del rectángulo: ");
+        double base = scanner.nextDouble();
+        System.out.print("Ingrese la altura del rectángulo: ");
+        double height = scanner.nextDouble();
+        double area = base * height;
+        System.out.println("El área del rectángulo es: " + area);
+    }
+}
